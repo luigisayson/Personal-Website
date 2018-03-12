@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        
+    <meta charset="utf-8">
+    <title>Luigi Sayson</title>
+
+</head>
+
+<body>
+<div id="mainContent">
+<p id="helloText">?</p>
+<button id="clickButton" class="buttonStyle">click me</button>
+</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "hello, world!";
+}
+</script>
+
+</body>
+</html>
