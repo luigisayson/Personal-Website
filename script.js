@@ -1,8 +1,12 @@
-var myButton = document.getElementById("clickButton");
-        var myText = document.getElementById("helloText");
-        
-        myButton.addEventListener('click', doSomething, false)
-        
-        function doSomething() {
-        	myText.textContent = "hello, world!";
-        }
+
+function main(){
+        $("#head").load("header.html")
+        $("#navigation").load("navigation.html")
+}
+
+
+
+$(document).ready(main);
+
+
+
