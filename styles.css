@@ -3,4 +3,39 @@ body {
    background-image: url(#);
    background-repeat:no-repeat;
    background-size:100% 100vh;
+   background-color: #F5F5F5;
 }
+
+
+.navbar{
+   margin-bottom: 40px;
+}
+
+hr{
+   height:1px;
+   border:none;
+   color:#333;
+   background-color:#333;
+   margin-bottom: 0px;
+}
+
+
+#about-text{
+   margin-left: -140px;
+}
+
+#Luigi{
+   margin-bottom:30px;
+}
+
+.project{
+   
+}
+
+/*#about-partition{*/
+/*   padding-bottom: 20px;*/
+/*   border-bottom-style: solid; */
+/*   border-width: 3px;*/
+/*   border-bottom-color: black;*/
+/*}*/
+
