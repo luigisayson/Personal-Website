@@ -28,9 +28,49 @@ hr{
    margin-bottom:30px;
 }
 
+.project-list{
+   list-style-type:none;
+}
+
 .project{
+   padding-bottom: 20px;
+   border-bottom-color: black;
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+   margin-bottom: 40px;
+}
+.project-name{
    
 }
+
+.project-description{
+   
+}
+
+
+.footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #343a40;
+   color: white;
+   text-align: right;
+   padding: 10px;
+}
+
+.footer-item{
+   font-size:20px;
+   margin-left:10px;
+   margin-right:10px;
+   color: white;
+}
+
+.footer-item:hover{
+   color: gray;
+}
+
+
 
 /*#about-partition{*/
 /*   padding-bottom: 20px;*/
