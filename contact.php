@@ -53,7 +53,7 @@ if(isset($_POST['submit'])){
                       <textarea class="form-control" rows="5" name="message" id="message" placeholder="Message" required></textarea>
                     </div>
                     <div class="form-group"> 
-                      <button type="submit" name="submit" value="submit" class="btn btn-default btn-success">Submit</button>
+                      <button type="submit" name="submit" value="submit" class="btn btn-default btn-secondary">Submit</button>
                     </div>
                   </form>            
               </div>
