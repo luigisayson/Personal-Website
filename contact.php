@@ -1,21 +1,37 @@
 <?php 
-if(isset($_POST['submit'])){
-    $to = "luigisayson@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $name = $_POST['name'];
-    $phone = $_POST['phone_number'];
-    $subject = $_POST['subject'];
-    $subject2 = "Copy of your form submission";
-    $message = $name . ",  " . $phone . "wrote the following:" . "\n\n" . $_POST['Message'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['Message'];
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-    } 
+require 'vendor/autoload.php';
+use Mailgun\Mailgun;
+
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
+
+
+$mg = Mailgun::create(getenv("MAILGUN_API_KEY"));
+$domain = getenv('DOMAIN');
+
+if(isset($_POST['submit'])){
+      $to = "luigisayson@gmail.com"; // this is your Email address
+      $from = $_POST['email']; // this is the sender's Email address
+      $name = $_POST['name'];
+      $phone = $_POST['phone_number'];
+      $subject = $_POST['subject'];
+      $message = $name . ",  " . $phone . "wrote the following:" . "\n\n" . $_POST['Message'];
+  
+      $headers = "From:" . $from;
+      mail($to,$subject,$message,$headers);
+      mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+      echo "Mail Sent";
+      $last_name = $_POST['last_name'];
+      $subject = "Form submission";
+      $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+      $mg->messages()->send("$domain", [
+        'from'    => "$name $from <$from>",
+        'to'      => "$to",
+        'subject' => "$subject",
+        'text'    => "$message"
+      ]);
+    }
 ?>
 
 
