@@ -3,9 +3,9 @@
     <?php include("header.html");?>
     <?php include("navigation.html");?>
     <body>
-        <div class="container">
+        <div class="container about-text">
             <div class="row">
-                <div class="col-md-6" id="about-text">
+                <div class="col-md-6 ">
                     <p>INTRODUCTION</p>
                     <p id="about-partition">
                         I am a fourth-year student at the University of California, Irvine majoring in Computer Science and minoring in Spanish.
@@ -24,7 +24,6 @@
                 </div>
             </div>
         </div>
-        <?php include("footer.html");?>
     </body>
     
 </html>

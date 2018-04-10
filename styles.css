@@ -22,8 +22,9 @@ hr{
 }
 
 
-#about-text{
-   margin-left: -140px;
+.about-text{
+   margin-left: 5%;
+   
 }
 
 #Luigi{
@@ -42,10 +43,15 @@ hr{
    margin-bottom: 20px;
 }
 .project-name{
-   
+   font-weight: bold;
 }
 
 .project-description{
+   
+}
+
+.contact-info{
+   line-height: 200%;
    
 }
 
@@ -72,6 +78,25 @@ hr{
    color: gray;
 }
 
+.icon{
+   
+   font-size:30px;
+   margin-right:20px;
+
+}
+
+.icons{
+   margin-top: 10px;
+}
+
+.github{
+   color: black;
+}
+
+.linkedin{
+   color: #0077B5;
+
+}
 
 
 /*#about-partition{*/

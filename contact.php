@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     echo "Mail Sent";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
+    } 
 ?>
 
 
@@ -29,10 +29,17 @@ if(isset($_POST['submit'])){
             <h1>Contact Luigi</h1>
           </div>
           <div class="row">
-              <div class="col">
-                E-mail: luigisayson@gmail.com<br>
-                Phone Number: (714) 980-2526
+              <div class="col contact-info">
+                <div>
+                  E-mail: luigisayson@gmail.com<br>
+                  Phone Number: (714) 980-2526<br>
+                </div>
+                <div class="icons">
+                  <a class="github icon" href="https://github.com/luigisayson" target="_blank"><i class="fab fa-github"></i></a>
+                  <a class="linkedin icon" href="https://www.linkedin.com/in/luigi-sayson-5b4b50119/" target="_blank"><i class="fab fa-linkedin"></i></a>
               </div>
+              </div>
+              
               <div class="col">
                   <form method="post" action="">
                     <div class="form-row">
@@ -58,7 +65,6 @@ if(isset($_POST['submit'])){
                   </form>            
               </div>
         </div>
-        <?php include("footer.html");?>
     </body>
     
 </html>

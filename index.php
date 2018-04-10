@@ -4,7 +4,6 @@
     <?php include("navigation.html");?>
     <body >
         <h1 class="text-center"> WELCOME</h1>
-         <?php include("footer.html");?>
     </body>
 
 

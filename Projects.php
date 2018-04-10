@@ -57,6 +57,5 @@
                 </li>
             </ul>
         </div>
-        <?php include("footer.html");?>
     </body>
 </html>
