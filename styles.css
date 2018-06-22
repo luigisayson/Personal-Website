@@ -21,14 +21,19 @@ hr{
    margin-bottom: 0px;
 }
 
+.index-container{
+   /*position: relative;*/
+}
 
 .about-text{
-   margin-left: 5%;
-   
+   position: absolute;
+   top: 50%;
+   left:25%;
 }
 
 #Luigi{
    margin-bottom:30px;
+   border-radius: 50%;
 }
 
 .project-list{
@@ -37,8 +42,6 @@ hr{
 
 .project{
    padding-bottom: 20px;
-   border-bottom-color: black;
-   border-bottom-style: solid;
    border-bottom-width: 1px;
    margin-bottom: 20px;
 }
@@ -47,7 +50,7 @@ hr{
 }
 
 .project-description{
-   
+   margin-top: 10px;
 }
 
 .contact-info{
@@ -87,17 +90,25 @@ hr{
 
 .icons{
    margin-top: 10px;
+  
+}
+
+.icon:hover{
+   color:inherit;
 }
 
 .github{
    color: black;
+    
 }
 
-.linkedin{
+.linkedin, .linkedin:hover{
    color: #0077B5;
-
 }
 
+.giant-name{
+   font-size: 66px;
+}
 
 /*#about-partition{*/
 /*   padding-bottom: 20px;*/
