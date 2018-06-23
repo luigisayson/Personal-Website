@@ -15,7 +15,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img id="Luigi" src="Picture1.JPG" alt="Picture of Luigi" width="300px" height = "300px">
+                    <img id="Luigi" src="Picture5.png" alt="Picture of Luigi" width="250px" height = "250px">
                 </div>
             </div>
         </div>

@@ -62,12 +62,12 @@
                       <div class="col">
                         <li class="project">
                             <div class="project-name">Virtual Machine System</div>
-                            <div class="text-center"><a href="#"><img src="Othello_pic.png" height="300px" width="<3></3>00px"></a></div>
+                            <div class="text-center"><img src="os.png" height="300px"></div>
                             <div class="project-description"> 
                                 <ul>
-                                    <li>Programmed the game Othello along with a GUI using Tkinter widgets in Python.</li>
-                                    <li>User can choose the dimensions of the board, with a minimum of a 4 by 4 board and a maximum of 16 by 16.</li>
-                                    <li>The program determines once the game is either won or drawn, and outputs a message</li>
+                                    This is a project I worked on in my project class for operating systems. The idea is to simulate a virtual machine using 
+                                    <a href = "https://en.wikipedia.org/wiki/Memory_segmentation">segmentation</a> and <a href = "https://en.wikipedia.org/wiki/Paging">paging</a>.
+                                    The program accepts virtual addresses from a file as input, and translates them into physical addresses. Code available upon demand.   
                                 </ul>
                             </div>
                         </li>

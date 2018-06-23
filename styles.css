@@ -6,6 +6,7 @@ body {
    min-height: 400px;
    margin-bottom: 100px;
    clear: both;
+   overflow-x:hidden;
 }
 
 
@@ -21,14 +22,15 @@ hr{
    margin-bottom: 0px;
 }
 
-.index-container{
-   /*position: relative;*/
+.exp-categ{
+   font-weight: bold;
+   font-size: 20px;
 }
 
 .about-text{
    position: absolute;
    top: 50%;
-   left:25%;
+   left:20%;
 }
 
 #Luigi{
@@ -108,6 +110,10 @@ hr{
 
 .giant-name{
    font-size: 66px;
+}
+
+.exp-title{
+   font-weight: bold;
 }
 
 /*#about-partition{*/
