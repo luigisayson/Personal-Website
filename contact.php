@@ -3,10 +3,6 @@
 require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 
-$dotenv = new Dotenv\Dotenv(__DIR__);
-$dotenv->load();
-
-
 $mg = Mailgun::create(getenv("MAILGUN_API_KEY"));
 $domain = getenv('DOMAIN');
 
