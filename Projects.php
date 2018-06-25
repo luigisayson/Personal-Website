@@ -50,18 +50,17 @@
                     <div class="col">
                         <li class="project">
                             <div class="project-name">Othello</div>
-                            <div class="text-center"><a href="#"><img src="Othello_pic.png" height="300px" width="<3></3>00px"></a></div>
+                            <div class="text-center"><a href="https://github.com/luigisayson/Othello" target="_blank"><img src="Othello_pic.png" height="300px" width="<3></3>00px"></a></div>
                             <div class="project-description"> 
                                 <ul>This is a project I worked on during my freshman year. It's based on the game <a href="https://en.wikipedia.org/wiki/Reversi">Othello</a>, 
                                 also known as "reversi." The board and all the moves made were implemented using a two dimensional list, while the GUI was made using Python's 
                                 Tkinter library. </ul><br>
-                                <ul>github link: <a href="#"> TO BE ADDED </a></ul>
                             </div>
                         </li>
                     </div>
                       <div class="col">
                         <li class="project">
-                            <div class="project-name">Virtual Machine System</div>
+                            <div class="project-name">Virtual Memory System</div>
                             <div class="text-center"><img src="os.png" height="300px"></div>
                             <div class="project-description"> 
                                 <ul>

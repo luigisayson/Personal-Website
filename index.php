@@ -9,8 +9,6 @@
                     <div class="giant-name text-center"> LUIGI SAYSON</div>
                     <p>
                         I am a recent graduate from the University of California, Irvine majoring in Computer Science and minoring in Spanish.
-                        I aspire to become a Software Developer and am always open to new professional experiences. 
-                        
                         I created this website to showcase my projects and achievements, while practicing my web development skills. 
                     </p>
                 </div>
