@@ -6,6 +6,7 @@
           <div class="container">
                 <div class = "exp-categ">Volunteer</div>
                     <ul>
+                        <img src="rotaract.png"/ height=75px width = 75px>
                         <div class ="exp-title"> Publicity Intern</div>
                         Rotaract, University of California, Irvine February 2015 – June 2016
                          <ul>
@@ -14,6 +15,7 @@
                             <li>Wrote weekly pieces on the club’s online blog.</li>
                         </ul>
                         <br>
+                        <img src="rotaract.png"/ height=75px width = 75px>
                         <div class ="exp-title">Secretary</div>
                         Rotaract, University of California, Irvine June 2016 – June 2017
                         <ul>
@@ -25,6 +27,7 @@
                 
                 <div class = "exp-categ">Work</div>
                 <ul>    
+                    <img src = "uci_dining_hospitality.png" height="75px" width="75px">
                     <div class ="exp-title">Dining Services Attendant</div>
                         Pippin Commons, University of California, Irvine    April 2016 – June 2017
                         <ul>
